@@ -13,7 +13,7 @@ namespace SearchApp
 
        
         private static  String searchDir = "C:\\";
-        private static String searchfileName = "*.*";
+        private static String searchfileName = "";
         static string fileName = "UserConfig.txt";
         static string directories = "Directories.txt";
         private static String path = Path.Combine(Environment.CurrentDirectory, fileName);
